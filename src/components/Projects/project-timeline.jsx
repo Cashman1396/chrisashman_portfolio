@@ -214,7 +214,7 @@ const Projects = () => {
                                     
                                     <Accordion.Collapse eventKey="0" className="text-left">
                                         <Card.Body>
-                                            <strong>Description:</strong>A command line interface pokemon of all the recent Pokemon out in the games.
+                                            <strong>Description:</strong>A Ruby command line interface that can access of all the recent Pokémon out in the games.
                                             <hr />
                                             <strong>Features:</strong>
                                             <ul className="list-styles pt-1">
