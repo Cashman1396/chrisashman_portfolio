@@ -35,6 +35,14 @@ const Contact = () => {
                             </Button>
                         </a>
                     </div>
+
+                    <div className="m-2">
+                        <a href="https://chrisashman96.medium.com/" target="_blank" rel="noopener noreferrer">
+                            <Button variant="outline-dark" title="More projects">
+                                <i className="fab fa-github-square"></i> BLog
+                            </Button>
+                        </a>
+                    </div>
                  </Col>
                  </Row>
              </Jumbotron>
