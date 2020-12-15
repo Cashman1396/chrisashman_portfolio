@@ -39,7 +39,7 @@ const Contact = () => {
                     <div className="m-2">
                         <a href="https://chrisashman96.medium.com/" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline-dark" title="More projects">
-                                <i className="fab fa-github-square"></i> BLog
+                                <i className="fab fa-medium-square"></i> BLog
                             </Button>
                         </a>
                     </div>
