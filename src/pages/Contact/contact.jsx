@@ -13,7 +13,7 @@ const Contact = () => {
                  <Row>
                  <Col className="d-flex justify-content-center flex-wrap">
                      <div className="m-2">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="Chrisashman96@gmail.com" target="_blank" rel="noopener noreferrer">
                         <Button variant="outline-danger" title="Chrisashman96@gmail.com">
                           <i className="fas fa-envelop-square"></i> Email Me 
                           </Button>
@@ -39,7 +39,7 @@ const Contact = () => {
                     <div className="m-2">
                         <a href="https://chrisashman96.medium.com/" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline-dark" title="More projects">
-                                <i className="fab fa-medium-square"></i> BLog
+                                <i className="fab fa-medium-square"></i> Blog
                             </Button>
                         </a>
                     </div>
