@@ -17,6 +17,7 @@ import L_RUBY from "../../assets/imgs/skills/ruby.svg"
 import L_ORACLELIB from "../../assets/imgs/projects/oraclelibrary.webp"
 import L_UNIVERSECAT from "../../assets/imgs/projects/universalcatalog.webp";
 import L_POKEMON from "../../assets/imgs/projects/pokemondata.webp"
+import L_TICTAC from "../../assets/imgs/projects/tictactoe.webp"
 import "./project-timeline.styles.css";
 
 
@@ -26,6 +27,67 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
+                <ImageEvent date="01/10/2021" className="text-center" text="Tic Tac Toe" src={L_TICTAC} alt="TicTac">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong> A ReactJS made Tic Tac Toe game where users with a friend can play old fashion tic tac toe
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>UsesReact for build in the board and the components</li>
+                                                <li>Can play multiple rounds of Tic Tac Toe </li>
+                                                <li>Has a Two player functionality</li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_REACT}
+                                                                alt="REACT"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                React
+                                                        </span>
+                                                    </li> 
+
+                                                     <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_JAVAS}
+                                                                alt="JAVASCRIPT"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                Javascript
+                                                        </span>
+                                                    </li>      
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/tic-tac-toe"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton>
+                        
+                        </div>
+                      </div>
+                    </ImageEvent>
+
+                    
                     <ImageEvent date="11/13/2020" className="text-center" text="Oracle Library" src={L_ORACLELIB} alt="Oracle Library">
                     <div className="d-flex justify-content-between flex-column mt-1">
                         <div>
@@ -204,7 +266,7 @@ const Projects = () => {
                       </div>
                     </ImageEvent>
 
-                     <ImageEvent date="03/11/2020" className="text-center" text="Pokémon Database" src={L_POKEMON} alt="Pokémon Database">
+                    <ImageEvent date="03/11/2020" className="text-center" text="Pokémon Database" src={L_POKEMON} alt="Pokémon Database">
                     <div className="d-flex justify-content-between flex-column mt-1">
                         <div>
                             <Accordion>
@@ -256,8 +318,6 @@ const Projects = () => {
                         </div>
                       </div>
                     </ImageEvent>
-
-
 
                   </Events>
               </Timeline>
