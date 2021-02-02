@@ -1,7 +1,11 @@
 .logo {
     width: 25%;
   }
-  
+
+.logo1 {
+  height: 60px;
+  width: 60px;
+}
   .nav-theme {
     background-color: #101018f8;
     font-size: 20px;
