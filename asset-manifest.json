@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea05cfed.chunk.css",
-    "main.js": "/static/js/main.dc61219d.chunk.js",
-    "main.js.map": "/static/js/main.dc61219d.chunk.js.map",
+    "main.css": "/static/css/main.08d71469.chunk.css",
+    "main.js": "/static/js/main.f5f62469.chunk.js",
+    "main.js.map": "/static/js/main.f5f62469.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41a2d529.js",
     "runtime-main.js.map": "/static/js/runtime-main.41a2d529.js.map",
     "static/js/2.59c4120c.chunk.js": "/static/js/2.59c4120c.chunk.js",
     "static/js/2.59c4120c.chunk.js.map": "/static/js/2.59c4120c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ea05cfed.chunk.css.map": "/static/css/main.ea05cfed.chunk.css.map",
+    "static/css/main.08d71469.chunk.css.map": "/static/css/main.08d71469.chunk.css.map",
     "static/js/2.59c4120c.chunk.js.LICENSE.txt": "/static/js/2.59c4120c.chunk.js.LICENSE.txt",
+    "static/media/Oricale.4137b1c1.webp": "/static/media/Oricale.4137b1c1.webp",
     "static/media/Profile2.c411154e.webp": "/static/media/Profile2.c411154e.webp",
     "static/media/Slide1.fa7a3dd9.webp": "/static/media/Slide1.fa7a3dd9.webp",
     "static/media/Slide2.78462e5b.webp": "/static/media/Slide2.78462e5b.webp",
@@ -38,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.41a2d529.js",
     "static/js/2.59c4120c.chunk.js",
-    "static/css/main.ea05cfed.chunk.css",
-    "static/js/main.dc61219d.chunk.js"
+    "static/css/main.08d71469.chunk.css",
+    "static/js/main.f5f62469.chunk.js"
   ]
 }
