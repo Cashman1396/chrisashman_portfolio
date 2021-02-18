@@ -11,6 +11,7 @@ import "./App.css";
 import Fade from 'react-reveal/Fade';
 import Slide from "react-reveal/Slide";
 import Skills from "./pages/Skills/skills"
+import Experience from "./pages/Experience/experience"
 import Projects from "./components/Projects/project-timeline"
 
 import Footer from "./components/footer/footer"
@@ -41,10 +42,23 @@ const App = () => {
       <div>
           <Container className="container-box rounded">
             <Fade>
-            <Skills />
+              <Slide bottom duration={500}>
+                <hr />
+              <Skills />
+              </Slide>
             </Fade>
           </Container>
        </div>
+
+       <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+
+            <Experience />
+          </Fade>
+        </Container>
+      </div>
 
        <Container className="container-box rounded">
         <Slide bottom duration={500}>
