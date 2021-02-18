@@ -23,7 +23,9 @@ const Experience = () => {
                         </div>
                         <div>
                             <Card.Text className="text-center style">
-                            <strong className="body-title-style ">Full Stack Developer</strong>
+                                <strong className="body-title-style ">Full Stack Developer</strong>
+                                <br />
+                                <strong>Duration:</strong> January 2021 - Present
 
                             </Card.Text>
                         </div>
