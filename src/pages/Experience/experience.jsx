@@ -10,7 +10,9 @@ const Experience = () => {
     return (
         <div id="experience">
             <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
-            
+            <Jumbotron className="jumbo-style">
+                <Container></Container>
+            </Jumbotron>
         </div>
     )
 }
