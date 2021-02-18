@@ -26,6 +26,8 @@ const Experience = () => {
                                 <strong className="body-title-style ">Full Stack Developer</strong>
                                 <br />
                                 <strong>Duration:</strong> January 2021 - Present
+                                <br />
+                                <strong> Description </strong>
 
                             </Card.Text>
                         </div>
