@@ -28,7 +28,10 @@ const Experience = () => {
                                 <strong>Duration:</strong> January 2021 - Present
                                 <br />
                                 <strong> Description </strong>
-
+                                <ul className="text-left">
+                                <li><strong>Worked</strong> with individuals, small businesses, and organizations to develop and improve their presence on the web.</li>
+                                <li><strong>Developed</strong> websites for content creation, editing, and usability</li>
+                                </ul>
                             </Card.Text>
                         </div>
                     </Card.Body>

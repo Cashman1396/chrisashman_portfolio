@@ -18,6 +18,7 @@ import L_ORACLELIB from "../../assets/imgs/projects/oraclelibrary.webp"
 import L_UNIVERSECAT from "../../assets/imgs/projects/universalcatalog.webp";
 import L_POKEMON from "../../assets/imgs/projects/pokemondata.webp"
 import L_TICTAC from "../../assets/imgs/projects/tictactoe.webp"
+import L_STELLAR from "../../assets/imgs/projects/Stellar.webp"
 import "./project-timeline.styles.css";
 
 
@@ -27,6 +28,84 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
+
+                <ImageEvent date="02/05/2021" className="text-center" text="Stellar" src={L_STELLAR} alt="Stellar">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong>A sample website I created from cafe services built using HTML, CSS, and Javascript.
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>Used HTML to create the framework of the site</li>
+                                                <li>Utilized fundamentals of HTML for its creation</li>
+                                                <li>Utilized CSS and Javascript for styling and animation</li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                HTML
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS"
+                                                                rounded
+                                                                className="image-style1 m-1" 
+                                                                ></Image>{" "}
+                                                                CSS3
+                                                        </span>
+                                                    </li>
+
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_JAVAS}
+                                                                alt="JAVASCRIPT"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                Javascript
+                                                        </span> 
+                                                    </li>     
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/Food_Site"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton>
+                        
+                        
+                        </div>
+                      </div>
+                    </ImageEvent>
+
+
+
+
                 <ImageEvent date="01/10/2021" className="text-center" text="Tic Tac Toe" src={L_TICTAC} alt="TicTac">
                     <div className="d-flex justify-content-between flex-column mt-1">
                         <div>
@@ -41,7 +120,7 @@ const Projects = () => {
                                             <hr />
                                             <strong>Features:</strong>
                                             <ul className="list-styles pt-1">
-                                                <li>UsesReact for build in the board and the components</li>
+                                                <li>Uses React for build in the board and the components</li>
                                                 <li>Can play multiple rounds of Tic Tac Toe </li>
                                                 <li>Has a Two player functionality</li>
                                             </ul>
