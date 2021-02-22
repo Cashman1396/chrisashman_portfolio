@@ -15,11 +15,11 @@ const Experience = () => {
                   <Tilt options={{ max: 25 }}>
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                        <Card.Img variant="top" className="img-resize" src={L_ORICALE} alt="Accenture logo" />
+                        <Card.Img variant="top" className="img-resize" src={L_ORICALE} alt="Oricale logo" />
                     </Card.Header>
                     <Card.Body className="d-flex justify-content-center flex-column">
                         <div>
-                        <Card.Title className="text-center">Freelance Web Developer</Card.Title>
+                        <Card.Title className="text-center">Oricale - Freelance Web Developer</Card.Title>
                         </div>
                         <div>
                             <Card.Text className="text-center style">
