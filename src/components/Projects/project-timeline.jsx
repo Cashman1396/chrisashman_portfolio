@@ -93,9 +93,13 @@ const Projects = () => {
                               </Accordion> 
                       </div>
                       <div className="d-flex justify-content-between flex-nowrap text-center">
-                        <UrlButton href="https://github.com/Cashman1396/Food_Site"
+                        <UrlButton href="https://github.com/Cashman1396/Stellar"
                         target="_blank">
                             SOURCE CODE
+                        </UrlButton>
+                        <UrlButton href="https://cashman1396.github.io/Stellar/"
+                        target="_blank">
+                            WATCH IT LIVE
                         </UrlButton>
                         
                         
