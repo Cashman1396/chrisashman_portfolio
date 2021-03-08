@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d98d4814.chunk.css",
-    "main.js": "/static/js/main.86ea0876.chunk.js",
-    "main.js.map": "/static/js/main.86ea0876.chunk.js.map",
+    "main.js": "/static/js/main.a6f38157.chunk.js",
+    "main.js.map": "/static/js/main.a6f38157.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41a2d529.js",
     "runtime-main.js.map": "/static/js/runtime-main.41a2d529.js.map",
     "static/js/2.a5c398b9.chunk.js": "/static/js/2.a5c398b9.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/contact.styles.css": "/static/media/background.f6814621.webp",
     "static/media/bootstrap-4.997c463d.svg": "/static/media/bootstrap-4.997c463d.svg",
     "static/media/css3.8fba365c.svg": "/static/media/css3.8fba365c.svg",
+    "static/media/galaxyweather.7f74946b.webp": "/static/media/galaxyweather.7f74946b.webp",
     "static/media/git-icon.c60b7e5a.svg": "/static/media/git-icon.c60b7e5a.svg",
     "static/media/github.740db6be.svg": "/static/media/github.740db6be.svg",
     "static/media/heroku.73be03b3.svg": "/static/media/heroku.73be03b3.svg",
@@ -41,6 +42,6 @@
     "static/js/runtime-main.41a2d529.js",
     "static/js/2.a5c398b9.chunk.js",
     "static/css/main.d98d4814.chunk.css",
-    "static/js/main.86ea0876.chunk.js"
+    "static/js/main.a6f38157.chunk.js"
   ]
 }
