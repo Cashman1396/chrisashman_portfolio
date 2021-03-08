@@ -19,6 +19,7 @@ import L_UNIVERSECAT from "../../assets/imgs/projects/universalcatalog.webp";
 import L_POKEMON from "../../assets/imgs/projects/pokemondata.webp"
 import L_TICTAC from "../../assets/imgs/projects/tictactoe.webp"
 import L_STELLAR from "../../assets/imgs/projects/Stellar.webp"
+import L_GALAXY from "../../assets/imgs/projects/galaxyweather.webp"
 import "./project-timeline.styles.css";
 
 
@@ -28,6 +29,60 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
+
+                <ImageEvent date="03/07/2021" className="text-center" text="Galaxy Weather" src={L_GALAXY} alt="Galaxy Weather">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong> A React Weather App that uses the OpenWeatherMap API to retrieve data for weather 
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>Used Fetch to retrieve data of weather for different cities, states, and countries</li>
+                                                <li>Shows a 7 day 3-hour forecast of a resulted search</li>
+                                                <li>Uses a combination of Reactjs, HTML, and SASS to create the Application</li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_REACT}
+                                                                alt="React"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                ReactJS
+                                                        </span>
+                                                    </li>
+    
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/galaxy-weather"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton>
+                        <UrlButton href="https://cashman1396.github.io/galaxy-weather/"
+                        target="_blank">
+                            WATCH IT LIVE
+                        </UrlButton>
+                        
+                        
+                        </div>
+                      </div>
+                    </ImageEvent>
 
                 <ImageEvent date="02/05/2021" className="text-center" text="Stellar" src={L_STELLAR} alt="Stellar">
                     <div className="d-flex justify-content-between flex-column mt-1">
@@ -194,7 +249,7 @@ const Projects = () => {
                                               <ul>
                                                   <li><span className="p-2">
                                                         <Image src={L_REACT} alt="React" rounded className="image-style m-1"></Image>{" "} 
-                                                            React
+                                                            ReactJS
                                                         </span>
                                                     </li>
 
@@ -271,11 +326,11 @@ const Projects = () => {
                                                         <span className="p-2">
                                                             <Image
                                                                 src={L_RAILS}
-                                                                alt="Redux"
+                                                                alt="RAILS"
                                                                 rounded
                                                                 className="image-style1 m-1" 
                                                                 ></Image>{" "}
-                                                                Redux
+                                                                RAILS
                                                         </span>
                                                     </li>
                                                     <li>
