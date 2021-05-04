@@ -26,8 +26,8 @@ const About = () => {
                     <Col xs={12} md={6}>
                         <Row className=" align-items-start p-2 my-details rounded">
                             Hi There! I am <strong>&nbsp;Christiphor Ashman</strong>
-                            <br />I am a passionate individual and programmer that is always ready to learn new technology. I am a Full Stack Web Developer and Designer with Skills in HTML5, CSS, Reactjs, and Ruby on Rails.<br />
-                            I graduated from The College of New Jersey in Ewing, New Jersey in 2018, with a focus in Interactive Multimedia and Game Design. <br />
+                            <br />I am a passionate individual and programmer that is always ready to learn new technology. Highly skilled Full Stack Web Developer in HTML, CSS, Reactjs, and Ruby on Rails.<br />
+                            I graduated from The College of New Jersey in Ewing, New Jersey in 2018, with a focus in Interactive Multimedia and Game Design/Computer Programming. <br />
                             After creating my first website back in college. I went to the Flatiron School to learn Software Engineering and advance my skills of learning Web Development.
                             <br /> I love learning about new information and contributing to the growth of my environment. I want to use the opportunities to learn and grow as Developer.
                             <br /><br />
