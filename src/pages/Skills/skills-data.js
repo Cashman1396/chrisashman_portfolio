@@ -12,6 +12,7 @@ import L_GIT from "../../assets/imgs/skills/git-icon.svg";
 import L_JAVASCRIPT from "../../assets/imgs/skills/javascript.svg";
 import L_RAILS from "../../assets/imgs/skills/rails.svg"
 import L_RUBY from "../../assets/imgs/skills/ruby.svg"
+import L_PHP from "../../assets/imgs/skills/php.svg"
 
 export const skillsnames = {
     frontend: [
@@ -63,6 +64,13 @@ export const skillsnames = {
         imgSrc: L_STYLED_COMPONENTS,
         skillName: "styled-components",
       },
+
+      {
+        link: "",
+        imgAltText: "PHP",
+        imgSrc: L_PHP,
+        skillName: "PHP",
+      }
       
 ],
     backend: [
