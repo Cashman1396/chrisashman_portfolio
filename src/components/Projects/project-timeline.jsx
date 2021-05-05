@@ -21,6 +21,7 @@ import L_POKEMON from "../../assets/imgs/projects/pokemondata.webp"
 import L_TICTAC from "../../assets/imgs/projects/tictactoe.webp"
 import L_STELLAR from "../../assets/imgs/projects/Stellar.webp"
 import L_GALAXY from "../../assets/imgs/projects/galaxyweather.webp"
+import L_ORICALEWP from "../../assets/imgs/projects/OricaleWP.webp"
 import "./project-timeline.styles.css";
 
 
@@ -32,7 +33,7 @@ const Projects = () => {
                 <Events>
 
 
-                <ImageEvent date="03/07/2021" className="text-center" text="Galaxy Weather" src={L_GALAXY} alt="Galaxy Weather">
+                <ImageEvent date="04/15/2021" className="text-center" text="Oricale WordPress" src={L_ORICALEWP} alt="Oricale WordPress">
                     <div className="d-flex justify-content-between flex-column mt-1">
                         <div>
                             <Accordion>
@@ -46,8 +47,8 @@ const Projects = () => {
                                             <hr />
                                             <strong>Features:</strong>
                                             <ul className="list-styles pt-1">
-                                                <li>Used Fetch to retrieve data of weather for different cities, states, and countries</li>
-                                                <li>Shows a 7 day 3-hour forecast of a resulted search</li>
+                                                <li>Created from HTML, CSS, PHP and WordPress</li>
+                                                <li>Uses PHP to talk to the WordPress backend</li>
                                                 <li>Uses a combination of Reactjs, HTML, and SASS to create the Application</li>
                                             </ul>
                                             <hr />
@@ -279,7 +280,7 @@ const Projects = () => {
                     </ImageEvent>
 
                     
-                    <ImageEvent date="11/13/2020" className="text-center" text="Oracle Library" src={L_ORACLELIB} alt="Oracle Library">
+                    <ImageEvent date="11/13/2020" className="text-center" text="Cosmos Library" src={L_ORACLELIB} alt="Cosmos Library">
                     <div className="d-flex justify-content-between flex-column mt-1">
                         <div>
                             <Accordion>
