@@ -13,6 +13,7 @@ import L_RAILS from "../../assets/imgs/skills/rails.svg"
 import L_JAVAS from "../../assets/imgs/skills/javascript.svg"
 import L_HEROKU from "../../assets/imgs/skills/heroku.svg"
 import L_RUBY from "../../assets/imgs/skills/ruby.svg"
+import L_PHP from "../../assets/imgs/skills/php.svg"
 
 import L_ORACLELIB from "../../assets/imgs/projects/oraclelibrary.webp"
 import L_UNIVERSECAT from "../../assets/imgs/projects/universalcatalog.webp";
@@ -29,6 +30,58 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
+
+
+                <ImageEvent date="03/07/2021" className="text-center" text="Galaxy Weather" src={L_GALAXY} alt="Galaxy Weather">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong> A React Weather App that uses the OpenWeatherMap API to retrieve data for weather 
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>Used Fetch to retrieve data of weather for different cities, states, and countries</li>
+                                                <li>Shows a 7 day 3-hour forecast of a resulted search</li>
+                                                <li>Uses a combination of Reactjs, HTML, and SASS to create the Application</li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="PHP"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                PHP
+                                                        </span>
+                                                    </li>
+    
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/galaxy-weather"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton>
+                       =
+                        
+                        
+                        </div>
+                      </div>
+                </ImageEvent>
 
                 <ImageEvent date="03/07/2021" className="text-center" text="Galaxy Weather" src={L_GALAXY} alt="Galaxy Weather">
                     <div className="d-flex justify-content-between flex-column mt-1">
