@@ -10,9 +10,10 @@ import L_HEROKU from "../../assets/imgs/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/imgs/skills/github.svg";
 import L_GIT from "../../assets/imgs/skills/git-icon.svg";
 import L_JAVASCRIPT from "../../assets/imgs/skills/javascript.svg";
-import L_RAILS from "../../assets/imgs/skills/rails.svg"
-import L_RUBY from "../../assets/imgs/skills/ruby.svg"
-import L_PHP from "../../assets/imgs/skills/php.svg"
+import L_RAILS from "../../assets/imgs/skills/rails.svg";
+import L_RUBY from "../../assets/imgs/skills/ruby.svg";
+import L_PHP from "../../assets/imgs/skills/php.svg";
+import L_WORDPRESS from "../../assets/imgs/skills/wordpress.svg";
 
 export const skillsnames = {
     frontend: [
@@ -80,6 +81,14 @@ export const skillsnames = {
        imgSrc: L_RAILS,
        skillName: "Ruby on Rails"
       },
+
+      {
+        link: "",
+        imgAltText: "WordPress",
+        imgSrc: L_WORDPRESS,
+        skillName: "WordPress"
+
+      }
 
 
     ],
