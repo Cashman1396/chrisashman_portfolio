@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import L_ORICALE from "../../assets/imgs/Oricale.webp"
+import L_DX from "../../assets/imgs/DXAgency.webp"
 import Tilt from "react-tilt";
 import "./experience.styles.css"
 
@@ -16,7 +17,7 @@ const Experience = () => {
                   <Tilt options={{ max: 25 }}>
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                        <Card.Img variant="top" className="img-resize" src={L_ORICALE} alt="Oricale logo" />
+                        <Card.Img variant="top" className="img-resize" src={L_DX} alt="Oricale logo" />
                     </Card.Header>
                     <Card.Body className="d-flex justify-content-center flex-column">
                         <div>
