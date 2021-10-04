@@ -14,6 +14,7 @@ import L_JAVAS from "../../assets/imgs/skills/javascript.svg"
 import L_HEROKU from "../../assets/imgs/skills/heroku.svg"
 import L_RUBY from "../../assets/imgs/skills/ruby.svg"
 import L_PHP from "../../assets/imgs/skills/php.svg"
+import L_WORDPRESS from "../../assets/imgs/skills/wordpress.svg";
 
 import L_ORACLELIB from "../../assets/imgs/projects/oraclelibrary.webp"
 import L_UNIVERSECAT from "../../assets/imgs/projects/universalcatalog.webp";
@@ -22,6 +23,9 @@ import L_TICTAC from "../../assets/imgs/projects/tictactoe.webp"
 import L_STELLAR from "../../assets/imgs/projects/Stellar.webp"
 import L_GALAXY from "../../assets/imgs/projects/galaxyweather.webp"
 import L_ORICALEWP from "../../assets/imgs/projects/OricaleWP.webp"
+import L_FORGE from "../../assets/imgs/projects/Forge.webp"
+import L_PROMO from "../../assets/imgs/projects/Promotional.webp"
+import L_VALS from "../../assets/imgs/projects/Valstrax.webp"
 import "./project-timeline.styles.css";
 
 
@@ -31,6 +35,275 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
+
+                <ImageEvent date="09/30/2021" className="text-center" text="Forge Site" src={L_FORGE} alt="Forge Site">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong>The Third Project made during my time at DXAgency
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>Created from HTML, CSS, PHP and WordPress</li>
+                                                <li>Used media queries for resizing the content</li>
+                                                <li>Used animations to bring some of the content to life</li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+
+                                            <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                HTML
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS"
+                                                                rounded
+                                                                className="image-style1 m-1" 
+                                                                ></Image>{" "}
+                                                                CSS3
+                                                        </span>
+                                                    </li>
+
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="PHP"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                PHP
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_WORDPRESS}
+                                                                alt="WordPress"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                WordPress
+                                                        </span>
+                                                    </li>
+
+    
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/backup-forge"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton>
+                       
+                        
+                        
+                        </div>
+                      </div>
+                </ImageEvent>
+
+                <ImageEvent date="07/08/2021" className="text-center" text="Oricale Page" src={L_PROMO} alt="Oricale Page">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong> Single Page Website Promoting Oricale Company
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>Created from HTML, CSS, PHP and WordPress</li>
+                                                <li>Utilizes Advanced Custom Fields from WordPress for desgins </li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+
+                                            <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                HTML
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS"
+                                                                rounded
+                                                                className="image-style1 m-1" 
+                                                                ></Image>{" "}
+                                                                CSS3
+                                                        </span>
+                                                    </li>
+
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="PHP"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                PHP
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_WORDPRESS}
+                                                                alt="WordPress"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                WordPress
+                                                        </span>
+                                                    </li>
+
+    
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/Oricale-SPA"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton>
+                       
+                        
+                        
+                        </div>
+                      </div>
+                </ImageEvent>
+
+                <ImageEvent date="06/22/2021" className="text-center" text="Monster Hunter" src={L_VALS} alt="Monster Hunter">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong> Single Page Website that showcases Crimson Glow Valstrax from the Monster Hunter Series 
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                            <li>Created from HTML, CSS, PHP and WordPress</li>
+                                                <li>Utilizes Advanced Custom Fields from WordPress for desgins </li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+
+                                            <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                HTML
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS"
+                                                                rounded
+                                                                className="image-style1 m-1" 
+                                                                ></Image>{" "}
+                                                                CSS3
+                                                        </span>
+                                                    </li>
+
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_PHP}
+                                                                alt="PHP"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                PHP
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_WORDPRESS}
+                                                                alt="WordPress"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                WordPress
+                                                        </span>
+                                                    </li>
+    
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/MonHunWordpress"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton>
+                       
+                        
+                        
+                        </div>
+                      </div>
+                </ImageEvent>
+
+
 
 
                 <ImageEvent date="04/15/2021" className="text-center" text="Oricale WordPress" src={L_ORICALEWP} alt="Oricale WordPress">
@@ -65,6 +338,19 @@ const Projects = () => {
                                                                 PHP
                                                         </span>
                                                     </li>
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_WORDPRESS}
+                                                                alt="WordPress"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                WordPress
+                                                        </span>
+                                                    </li>
+
     
                                               </ul>
                                           </Card.Body>
@@ -77,7 +363,7 @@ const Projects = () => {
                         target="_blank">
                             SOURCE CODE
                         </UrlButton>
-                       =
+                       
                         
                         
                         </div>
