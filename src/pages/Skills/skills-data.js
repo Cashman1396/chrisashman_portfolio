@@ -93,18 +93,26 @@ export const skillsnames = {
 
     ],
     hostingPlatforms: [
-        {
-          link: "https://www.heroku.com/",
-          imgAltText: "Heroku",
-          imgSrc: L_HEROKU,
-          skillName: "Heroku",
-        },
-        {
+      {
+        link: "https://wordpress.com/",
+        imgAltText: "WordPress",
+        imgSrc: L_WORDPRESS,
+        skillName: "WordPress"
+
+      },
+      {
           link: "https://pages.github.com/",
           imgAltText: "GitHub Pages",
           imgSrc: L_GITHUB_PAGES,
           skillName: "GitHub Pages",
           },
+      {
+          link: "https://www.heroku.com/",
+          imgAltText: "Heroku",
+          imgSrc: L_HEROKU,
+          skillName: "Heroku",
+      },
+       
 
     ],
 
