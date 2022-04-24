@@ -27,6 +27,7 @@ import L_ORICALEWP from "../../assets/imgs/projects/OricaleWP.webp"
 import L_FORGE from "../../assets/imgs/projects/Forge.webp"
 import L_PROMO from "../../assets/imgs/projects/Promotional.webp"
 import L_VALS from "../../assets/imgs/projects/Valstrax.webp"
+import L_WORKSGALLERY from "../../assets/imgs/projects/works-gallery"
 import "./project-timeline.styles.css";
 
 
@@ -36,6 +37,72 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
+
+                <ImageEvent date="04/24/2022" className="text-center" text="Portfolio Gallery" src={L_WORKSGALLERY} alt="Portfolio Works">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong> A Image Gallery created to showcase additional works I have done
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>Created from HTML and CSS to shwocase additional portfolio work</li>
+                                                <li>Images use a lightbox for users to view images in higher quality and in color</li>
+                                                <li>Uses a grayscale for images that are not hovered over but when hovered the image becomes color</li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+                                            <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                HTML
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS"
+                                                                rounded
+                                                                className="image-style1 m-1" 
+                                                                ></Image>{" "}
+                                                                CSS3
+                                                        </span>
+                                                    </li>
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/portfolio-gallery"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton> 
+
+                        <UrlButton href="https://cashman1396.github.io/portfolio-gallery/"
+                        target="_blank">
+                            WATCH IT LIVE
+                        </UrlButton>
+                        
+                        
+                        </div>
+                      </div>
+                </ImageEvent>
 
                 <ImageEvent date="04/22/2022" className="text-center" text="SunMade" src={L_SUNMADE} alt="SunMade">
                     <div className="d-flex justify-content-between flex-column mt-1">
@@ -47,7 +114,7 @@ const Projects = () => {
                                     
                                     <Accordion.Collapse eventKey="0" className="text-left">
                                         <Card.Body>
-                                            <strong>Description:</strong>The Third Project made during my internship at DXAgency
+                                            <strong>Description:</strong>A recently created front-page website that I created to showcase my works and services
                                             <hr />
                                             <strong>Features:</strong>
                                             <ul className="list-styles pt-1">
