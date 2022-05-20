@@ -27,7 +27,8 @@ import L_ORICALEWP from "../../assets/imgs/projects/OricaleWP.webp"
 import L_FORGE from "../../assets/imgs/projects/Forge.webp"
 import L_PROMO from "../../assets/imgs/projects/Promotional.webp"
 import L_VALS from "../../assets/imgs/projects/Valstrax.webp"
-import L_WORKSGALLERY from "../../assets/imgs/projects/works-gallery"
+import L_WORKSGALLERY from "../../assets/imgs/projects/works-gallery.webp"
+import L_BIKE from "../../assets/imgs/projects/BikeSite.webp"
 import "./project-timeline.styles.css";
 
 
@@ -37,6 +38,84 @@ const Projects = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
+
+                <ImageEvent date="05/17/2022" className="text-center" text="Bike Site" src={L_BIKE} alt="BMW Bike Website">
+                    <div className="d-flex justify-content-between flex-column mt-1">
+                        <div>
+                            <Accordion>
+                                <Card>
+                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
+                                    
+                                    
+                                    <Accordion.Collapse eventKey="0" className="text-left">
+                                        <Card.Body>
+                                            <strong>Description:</strong> A BMW Motorcycle Website
+                                            <hr />
+                                            <strong>Features:</strong>
+                                            <ul className="list-styles pt-1">
+                                                <li>A BMW Motorcycle Website to present my learning of Javascript.</li>
+                                                <li>Created from HTML and CSS to showcase additional portfolio work</li>
+                                                <li>Uses Javascript to transition the background into three different versions using color buttons</li>
+                                            </ul>
+                                            <hr />
+                                            <strong>Tech Used:</strong>
+                                            <ul>
+                                            <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_HTML5}
+                                                                alt="HTML"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                HTML
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_CSS3}
+                                                                alt="CSS"
+                                                                rounded
+                                                                className="image-style1 m-1" 
+                                                                ></Image>{" "}
+                                                                CSS3
+                                                        </span>
+                                                    </li>
+
+                                                    <li>
+                                                        <span>
+                                                            <Image
+                                                                src={L_JAVAS}
+                                                                alt="JAVASCRIPT"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                                ></Image>{" "}
+                                                                Javascript
+                                                        </span> 
+                                                    </li>     
+                                              </ul>
+                                          </Card.Body>
+                                      </Accordion.Collapse>
+                                  </Card>
+                              </Accordion> 
+                      </div>
+                      <div className="d-flex justify-content-between flex-nowrap text-center">
+                        <UrlButton href="https://github.com/Cashman1396/BikeWebsite"
+                        target="_blank">
+                            SOURCE CODE
+                        </UrlButton> 
+
+                        <UrlButton href="https://cashman1396.github.io/BikeWebsite/"
+                        target="_blank">
+                            WATCH IT LIVE
+                        </UrlButton>
+                        
+                        
+                        </div>
+                      </div>
+                </ImageEvent>
 
                 <ImageEvent date="04/24/2022" className="text-center" text="Portfolio Gallery" src={L_WORKSGALLERY} alt="Portfolio Works">
                     <div className="d-flex justify-content-between flex-column mt-1">
@@ -258,94 +337,6 @@ const Projects = () => {
                       </div>
                 </ImageEvent>
 
-                <ImageEvent date="06/22/2021" className="text-center" text="Monster Hunter" src={L_VALS} alt="Monster Hunter">
-                    <div className="d-flex justify-content-between flex-column mt-1">
-                        <div>
-                            <Accordion>
-                                <Card>
-                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
-                                    
-                                    
-                                    <Accordion.Collapse eventKey="0" className="text-left">
-                                        <Card.Body>
-                                            <strong>Description:</strong> Single Page Website that showcases Crimson Glow Valstrax from the Monster Hunter Series 
-                                            <hr />
-                                            <strong>Features:</strong>
-                                            <ul className="list-styles pt-1">
-                                            <li>Created from HTML, CSS, PHP and WordPress</li>
-                                                <li>Utilizes Advanced Custom Fields from WordPress for desgins </li>
-                                            </ul>
-                                            <hr />
-                                            <strong>Tech Used:</strong>
-                                            <ul>
-
-                                            <li>
-                                                        <span>
-                                                            <Image
-                                                                src={L_HTML5}
-                                                                alt="HTML"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                                ></Image>{" "}
-                                                                HTML
-                                                        </span>
-                                                    </li>
-
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_CSS3}
-                                                                alt="CSS"
-                                                                rounded
-                                                                className="image-style1 m-1" 
-                                                                ></Image>{" "}
-                                                                CSS3
-                                                        </span>
-                                                    </li>
-
-
-                                                    <li>
-                                                        <span>
-                                                            <Image
-                                                                src={L_PHP}
-                                                                alt="PHP"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                                ></Image>{" "}
-                                                                PHP
-                                                        </span>
-                                                    </li>
-
-                                                    <li>
-                                                        <span>
-                                                            <Image
-                                                                src={L_WORDPRESS}
-                                                                alt="WordPress"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                                ></Image>{" "}
-                                                                WordPress
-                                                        </span>
-                                                    </li>
-    
-                                              </ul>
-                                          </Card.Body>
-                                      </Accordion.Collapse>
-                                  </Card>
-                              </Accordion> 
-                      </div>
-                      <div className="d-flex justify-content-between flex-nowrap text-center">
-                        <UrlButton href="https://github.com/Cashman1396/MonHunWordpress"
-                        target="_blank">
-                            SOURCE CODE
-                        </UrlButton>
-                       
-                        
-                        
-                        </div>
-                      </div>
-                </ImageEvent>
-
                 <ImageEvent date="03/07/2021" className="text-center" text="Galaxy Weather" src={L_GALAXY} alt="Galaxy Weather">
                     <div className="d-flex justify-content-between flex-column mt-1">
                         <div>
@@ -477,66 +468,6 @@ const Projects = () => {
                         </div>
                       </div>
                 </ImageEvent>
-
-                <ImageEvent date="01/10/2021" className="text-center" text="Tic Tac Toe" src={L_TICTAC} alt="TicTac">
-                    <div className="d-flex justify-content-between flex-column mt-1">
-                        <div>
-                            <Accordion>
-                                <Card>
-                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
-                                    
-                                    
-                                    <Accordion.Collapse eventKey="0" className="text-left">
-                                        <Card.Body>
-                                            <strong>Description:</strong> A ReactJS made Tic Tac Toe game where users with a friend can play old fashion tic tac toe
-                                            <hr />
-                                            <strong>Features:</strong>
-                                            <ul className="list-styles pt-1">
-                                                <li>Uses React for build in the board and the components</li>
-                                                <li>Can play multiple rounds of Tic Tac Toe </li>
-                                                <li>Has a Two player functionality</li>
-                                            </ul>
-                                            <hr />
-                                            <strong>Tech Used:</strong>
-                                            <ul>
-                                                    <li>
-                                                        <span>
-                                                            <Image
-                                                                src={L_REACT}
-                                                                alt="REACT"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                                ></Image>{" "}
-                                                                React
-                                                        </span>
-                                                    </li> 
-
-                                                     <li>
-                                                        <span>
-                                                            <Image
-                                                                src={L_JAVAS}
-                                                                alt="JAVASCRIPT"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                                ></Image>{" "}
-                                                                Javascript
-                                                        </span>
-                                                    </li>      
-                                              </ul>
-                                          </Card.Body>
-                                      </Accordion.Collapse>
-                                  </Card>
-                              </Accordion> 
-                      </div>
-                      <div className="d-flex justify-content-between flex-nowrap text-center">
-                        <UrlButton href="https://github.com/Cashman1396/tic-tac-toe"
-                        target="_blank">
-                            SOURCE CODE
-                        </UrlButton>
-                        
-                        </div>
-                      </div>
-                </ImageEvent>
               
                 <ImageEvent date="11/13/2020" className="text-center" text="Cosmos Library" src={L_ORACLELIB} alt="Cosmos Library">
                     <div className="d-flex justify-content-between flex-column mt-1">
@@ -607,114 +538,7 @@ const Projects = () => {
                       </div>
                 </ImageEvent>
 
-                <ImageEvent date="09/10/2020" className="text-center" text="Universal Catalog" src={L_UNIVERSECAT} alt="Universal Catalog">
-                    <div className="d-flex justify-content-between flex-column mt-1">
-                        <div>
-                            <Accordion>
-                                <Card>
-                                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">PROJECT DETAILS</Accordion.Toggle>
-                                    
-                                    
-                                    <Accordion.Collapse eventKey="0" className="text-left">
-                                        <Card.Body>
-                                            <strong>Description:</strong> A Catalog that will be to contain multiple items such as Food, Television shows, you name it. This catalog is here to make making those decisions a bit easier
-                                            <hr />
-                                            <strong>Features:</strong>
-                                            <ul className="list-styles pt-1">
-                                                <li>Uses Ruby on Rails and Javascript to create a catalog website of food</li>
-                                                <li>Uses to get data from the backend to implement new items into the catalog</li>
-                                                <li>Utilizes Fetch to obtain data and send requests to the API</li>
-                                            </ul>
-                                            <hr />
-                                            <strong>Tech Used:</strong>
-                                            <ul>
-                                                <li><span className="p-2">
-                                                    <Image src={L_HTML5} alt="React" rounded className="image-style m-1"></Image>{" "} 
-                                                        HTML5
-                                                    </span>
-                                                </li>
-
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_RAILS}
-                                                                alt="RAILS"
-                                                                rounded
-                                                                className="image-style1 m-1" 
-                                                                ></Image>{" "}
-                                                                RAILS
-                                                        </span>
-                                                    </li>
-                                                    <li>
-                                                        <span>
-                                                            <Image
-                                                                src={L_JAVAS}
-                                                                alt="Rails"
-                                                                rounded
-                                                                className="image-style1 m-1"
-                                                                ></Image>{" "}
-                                                                Rails
-                                                        </span>
-                                                    </li>
-
-                                                    <li>
-                                                    <span>
-                                                        <Image
-                                                            src={L_HEROKU}
-                                                            alt="Heroku"
-                                                            rounded
-                                                            className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            Heroku
-                                                        </span>
-                                                    </li>
-
-                                                    <li>
-                                                    <span>
-                                                        <Image
-                                                            src={L_POSTGRESQL}
-                                                            alt="Postgresql"
-                                                            rounded
-                                                            className="image-style1 m-1"
-                                                            ></Image>{" "}
-                                                            Postgresql
-                                                        </span>
-                                                    </li>
-
-                                                    <li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={L_CSS3}
-                                                                alt="CSS"
-                                                                rounded
-                                                                className="image-style1 m-1" 
-                                                                ></Image>{" "}
-                                                                CSS3
-                                                        </span>
-                                                    </li>
-                                              </ul>
-                                          </Card.Body>
-                                      </Accordion.Collapse>
-                                  </Card>
-                              </Accordion> 
-                      </div>
-                      <div className="d-flex justify-content-between flex-nowrap text-center">
-                        <UrlButton href="https://github.com/Cashman1396/Javascript-Rails-Food-Catalog"
-                        target="_blank">
-                            SOURCE CODE
-                        </UrlButton>
-                        <UrlButton href="http://universal-catalog-client.herokuapp.com/"
-                        target="_blank">
-                            WATCH IT LIVE
-                        </UrlButton>
-                        <UrlButton href="https://www.youtube.com/watch?v=FYsF4wynCp0&t"
-                        target
-                        ="_blank">
-                            WATCH VIDEO
-                        </UrlButton>
-                        </div>
-                      </div>
-                </ImageEvent>
+                
 
                   </Events>
               </Timeline>
